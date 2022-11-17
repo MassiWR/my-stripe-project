@@ -7,7 +7,7 @@ type Props = {
   min: number;
   max: number;
   currency: string;
-  step: string;
+  step: number;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   className?: string;
 };
